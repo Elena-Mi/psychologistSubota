@@ -8,6 +8,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
     
 }
 .main_page {
@@ -172,7 +173,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 1200px; */
     height: 400px;
     font-size: 32px;
     color: teal;
@@ -195,6 +195,7 @@ body {
     height: 50px;
     border-radius: 50%;
     margin-top: 20px;
+    left: 2%;
 }
 .ball_two {
     position:absolute;
@@ -341,6 +342,9 @@ body {
     height: 120px;
     border-radius: 20px;
     padding: 10px 20px;
+}
+.price_box_second {
+    height: 140px;
 }
 .price_box_text {
     text-align: center;
